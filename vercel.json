@@ -17,5 +17,11 @@
                 "Access-Control-Allow-Origin": "*"
             }
         }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.js"
+        }
     ]
 }
